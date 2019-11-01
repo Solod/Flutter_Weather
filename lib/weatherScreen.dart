@@ -9,7 +9,6 @@ class WeatherScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return new Scaffold(
         appBar: new AppBar(title: new Text('Weather screen')),
         body: Padding(

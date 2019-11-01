@@ -18,7 +18,7 @@ void main() => runApp(new MaterialApp(
               arguments: settings.arguments));
     }));
 
-Widget makeRoute({BuildContext context, String routeName, Object arguments}) {
+ makeRoute({BuildContext context, String routeName, Object arguments}) {
   switch (routeName) {
     case '/':
       return BodyForm();

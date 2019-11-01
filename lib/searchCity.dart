@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:progress_dialog/progress_dialog.dart';
 import 'package:test_weather/models/city.dart';
-import 'package:test_weather/weatherScreen.dart';
 import 'const/apiConst.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
